@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OilsSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" top="150">
+		<e:Rect width="560" height="560" fillColor="0x1a1a1a"/>
+		<e:Group id="drawMc" width="560" height="560" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Button id="cleanBtn" label="清理画布" y="590" skinName="skins.ButtonSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="uploadBtn" label="识别" y="678.49" skinName="skins.ButtonSkin" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Label id="probTxt" text="" size="24" scaleX="1" scaleY="1" y="756.0000000000001" height="420"/>
+		<e:Label id="resTxt" text="" x="332" y="787.0000000000001" anchorOffsetX="0" width="186.12" anchorOffsetY="0" height="196.67" size="100" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>
